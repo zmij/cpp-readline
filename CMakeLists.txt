@@ -34,7 +34,7 @@ option(BUILD_EXAMPLES "Build example application" ON)
 
 include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/src
-    ${Readline_INCLUDE_DIRS}
+    ${Readline_INCLUDE_DIR}
 )
 add_definitions("-std=c++11")
 add_definitions(-Wall -Werror -pedantic -Weffc++)
